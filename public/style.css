@@ -34,6 +34,8 @@
 
  
  .projectcard{ 
+    display: flex;
+    flex-direction: column;
     margin:40px 5px;
     padding: 10px;
     background-color: lime ;
