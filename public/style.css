@@ -6,7 +6,6 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    list-style:none 
    }
 /*==================================
 -----------hero section-------------
@@ -17,7 +16,7 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     margin-right: 25%;
+     width:75%;
      height:400px;
     } 
 
@@ -32,7 +31,10 @@
         projects section
 ==================================== */
 
- 
+ #projects{
+    display: flex;
+    flex-direction: column;
+ }
  .projectcard{ 
     display: flex;
     flex-direction: column;
@@ -51,7 +53,7 @@
 img {
     border-radius: 10px;
     width:100%;
-    height: max-height;
+    height:250px;
 }
 
 .projectlinks{
