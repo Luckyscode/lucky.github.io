@@ -9,108 +9,107 @@
 <body>
 
   <!-- nav displayed at bottom -->
-<nav>
-  <ul class="navbar">
-    <li>home</li>
-    <li>projects</li>
-    <li><a href="blog.html">blog</a></li>
-    <li>conctact</li>
-  </ul>
-</nav>
+  <nav>
+    <div class="navbar">
+       <h1>lucky.dev</h1>
+       <button class="navtoggle">menu</button>
+    </div>
+          <ul style="display:none">
+            <li class="navitem"><button class="navbtn">home</button></li>
+            <li class="navitem"><button class="navbtn">blog</button></li>
+            <li class="navitem"><button class="navbtn">contact</button></li>
+            <li class="navitem"><button class="navbtn">about</button></li>
+          </ul>
+  </nav>
 
+<!-- hero section -->
 <section id="hero">
+
 <h1>hi my name is lucky</h1>
-<p>i am front-end web developer inlove with 
+<p>
+  i am front-end web developer inlove with 
   helping individuals n/and small business's craft
-  websites that match thier brand,easy to use and responsive </p>
+  websites that match thier brand,easy to use and responsive
+</p>
 <p class="icon">&#8734 	&infin; </p>
 </section>
 
-<section id="rojects">
-  <h2> some of the work i've done</h2>
-    <div class="projectcontainer">
-    <div class="projectcard 1">
-     <img  src="assets\screenshot.png"/>
-     <div class="description">
-     <h3>this project</h3>
-     <p>this project was made to showcase my blo and showcase all i'll be creating and learning
-    <span>read more...</span>  
-    </p>
-     <p class="icon">&#8734 	&infin; </p>
-      </div>
-    </div>
+<!-- end of hero-section -->
 
-    <div class="projectcard b">
-      <div class="description">
-        <h3>this project</h3>
-        <p>i am front-end web developer inlove with xxrxurxxr
-         websites that match thier brand<span>read more...</span> </p>
-        <p class="icon">&#8734 	&infin; </p>
+
+
+<!-- projects section -->
+<section id="projects">
+  <h2> some of the work i've done</h2>
+  <hr style="height:2px;border-width:0;color:gray;background-color:green">
+    <div class="projectcontainer">
+
+
+      <div class="projectcard">
+         <h3>this project</h3>
+         <img  src="assets\screenshot.png"/>
+         <p>Using html,css and javascript i created this portfollio to showcase my skills 
+          and knowledge with the built in blog functions i am also able to write 
+          and keep track of all my learning
+         </p>
+         
+         <ul class="projectlinks">
+          <li><a href="">live</a></li>
+          <li><a href="">details</a></li>
+          <li><a href="">source</a></li>
+
+         </ul>
        </div>
-       <img  src="assets\screenshot.png"/>
-     </div>
+
+       <div class="projectcard">
+        <h3>this project</h3>
+        <img  src="assets\screenshot.png"/>
+        <p>Using html,css and javascript i created this portfollio to showcase my skills 
+         and knowledge with the built in blog functions i am also able to write 
+         and keep track of all my learning
+        </p>
+        
+        <ul class="projectlinks">
+         <li><a href="">live</a></li>
+         <li><a href="">details</a></li>
+         <li><a href="">source</a></li>
+        </ul>
+      </div>
+
+    </div>
+</section>
+<!--- end of projects section -->
+
+
+
+<!-- contact section -->
+<section id="contact">
+  <div class="contactheader">
+  <h3>tell me all about your idea over coffee</h3>
+  <p>feel free to reach out if you're looking for a developer,have a question or just want to connect</p>
+</div>
+  <div class="contactinfo">
+  
+
+      <form class="emailform" action="mailto:luckymalatji08@gmail.com" method="post" enctype="text/plain">
+           <p>send an email</p>
+           <input type="email"  placeholder="email" name="email" required>
+           <input type="text" placeholder="message" name="message" required>
+           <input type="submit" value="Send">
+      </form>
+     
+       <ul class="sociallinks">
+
+            <li>&#8734</li>
+            <li>&infin;</li>
+            <li>&#8734</li>
+            </ul>
   </div>
 </section>
 
-
-<section id="tools">
-  <ul class="toolkit">
-    <li>html</li>
-    <li>css</li>
-    <li>javascript</li>
-    <li>jQuery</li>
-    <li>node.js</li>
-  </ul>
-</section>
-
-
-
-
-<section id="conctact">
-  <h3>tell me all about your idea over coffee</h3>
-  <ul class="sociallinks">
-    <li>email</li>
-    <li>github</li>
-    <li>discord</li>
-    <li>facebook</li>
-    <li>instagram</li>
-  </ul>
-
-  <form id="emailform" action="myEmail" method="post" enctype="text/plain">
-    Name:<br>
-    <input type="text" name="name"><br>
-    E-mail:<br>
-    <input type="text" name="mail"><br>
-    Comment:<br>
-    <input type="text" name="comment" size="50"><br><br>
-    <input type="submit" value="Send">
-    </form>
-</section>
-
-
+<!------------------footer----------->
 <section id="footer">
-<p>&#169;opyright-2025 by dandesigns. All Rights Reserved.</p>
+  <p>Copyright-2025 &#169; by <a>Lucky</a></p>
 </section>
-
-
-
-
-
-
-
-
-
-
-     <!------------------------------------------------------->
-    <!----------------- javascript--------------------------->
-
-<script src="jquery-3.7.1.min.js"></script>
-
-  
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-   
-<script src="index.js"></script>
-    
 </body>
 </html>
