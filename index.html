@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="public/style.css">
-  <title>Document</title>
+  <title>lucky.github.io</title>
 </head>
 <body>
 
@@ -12,13 +12,13 @@
   <nav>
     <div class="navbar">
        <h1>lucky.dev</h1>
-       <button class="navtoggle">menu</button>
+       <img class="nav-toggle" src="assets/menu.svg" alt="menu-icon" width="50" height="50"/>
     </div>
-          <ul style="display:none">
-            <li class="navitem"><button class="navbtn">home</button></li>
-            <li class="navitem"><button class="navbtn">blog</button></li>
-            <li class="navitem"><button class="navbtn">contact</button></li>
-            <li class="navitem"><button class="navbtn">about</button></li>
+          <ul class="navitems">
+            <li class="navitem"><a  href="#hero">about</a></li>
+            <li class="navitem"><a href="#projects">projects</a></li>
+            <li class="navitem"><a href="#contact">contact</a></li>
+            <li class="navitem"><a href="blog.html">blog</a></li>
           </ul>
   </nav>
 
@@ -47,7 +47,7 @@
 
       <div class="projectcard">
          <h3>this project</h3>
-         <img  src="assets\screenshot.png"/>
+         <img  src="assets\screenshot.png"  width="500" height="300"/>
          <p>Using html,css and javascript i created this portfollio to showcase my skills 
           and knowledge with the built in blog functions i am also able to write 
           and keep track of all my learning
@@ -63,7 +63,7 @@
 
        <div class="projectcard">
         <h3>this project</h3>
-        <img  src="assets\screenshot.png"/>
+        <img  src="assets\screenshot2.png"   width="500" height="300"/>
         <p>Using html,css and javascript i created this portfollio to showcase my skills 
          and knowledge with the built in blog functions i am also able to write 
          and keep track of all my learning
@@ -111,5 +111,8 @@
 <section id="footer">
   <p>Copyright-2025 &#169; by <a>Lucky</a></p>
 </section>
+<!-- end of footer -->
+<script src="jquery-3.7.1.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
