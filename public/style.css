@@ -199,17 +199,32 @@ a{
 }
 .contactheader{
     text-align: start;
-    margin:10px 5px;
-    display: flex;
-    flex-direction: column;
-   justify-content:center;
-    align-items: center;
+    padding: 20px;
+    color: var(--color-backgroud);
+    margin-bottom: 35px;
 } 
+
+.contactheader > h3{
+    width: fit-content;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: var(--color-accent);
+    background-color:var(--color-backgroud);
+    box-shadow: 0px 0px 10px 5px var(--color-backgroud);
+}
+contactheader > p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    padding:10px;
+}
 .contactinfo{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    /* padding: 20px; */
+    padding-bottom: 20px;
 
 }
 
@@ -219,13 +234,25 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 50px; */
+    color: var(--color-backgroud);
+    background-color: var(--color-accent);
+    box-shadow: 0px 0px 10px 15px var(--color-accent);
+
+}
+.emailform > input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+
+    color: var(--color-secondary);
+    background-color: var(--color-backgroud);
 }
 
 
 .sociallinks{
     list-style: none;
-    /* display: flex; */
+    
     
 }
 
