@@ -196,6 +196,7 @@ a{
 =================================================*/
 #contact{
     background-color: var(--color-main);
+    padding: 10px;
 }
 .contactheader{
     text-align: start;
@@ -263,7 +264,9 @@ contactheader > p{
 /* ===============================================
                       footer 
    ================================================*/
-#footer{    justify-content:center ;
+#footer{   
+    text-align: center;
+     justify-content:center ;
     align-items: center;
     background-color: var(--color-backgroud);
     color: var(--color-main);
