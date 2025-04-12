@@ -263,12 +263,11 @@ contactheader > p{
 /* ===============================================
                       footer 
    ================================================*/
-#footer{
-    display: flex;
-    margin-top: 20px;
-    display: flex;
-    justify-content:center ;
+#footer{    justify-content:center ;
     align-items: center;
+    background-color: var(--color-backgroud);
+    color: var(--color-main);
+    padding: 20px;
 }
 /* =========end of footer==================== */
 
