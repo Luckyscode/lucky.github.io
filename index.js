@@ -8,4 +8,9 @@ $(".nav-toggle").click(function(){
         $(".nav-toggle").attr("src","assets/menu.svg")
         $(".navitems").css("display","none")
     }
+  // hide nav menu after option selection
+  $(".navbtn").click(function(){
+    $(".navitems").css("display","none")});
+  
+
   });
